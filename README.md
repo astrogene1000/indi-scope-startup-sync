@@ -26,14 +26,20 @@ Execution command line
 progname RAOff1 DECOff1 RAOff2 DECOff2 RAOff3 DECOff3 ExpLength Longitude PathToDark
 
 Where the RAOffX and DECOffX are
+
  RAOffX = offset from LST for capture 1,2,3
- DECOffX = DEC offset for capture 1,2,3
- --Note: RAOffX is signed, + is interpreted as East of LM, - as West of LM
+
+DECOffX = DEC offset for capture 1,2,3
+
+--Note: RAOffX is signed, + is interpreted as East of LM, - as West of LM
 
  ExpLength = How long to expose for, in seconds
- Longitude = Longitude of observation (for LST calculation)
- PathToDark = path to darkframe file to subtract for last exposure
- -Note: PathToDark needs to be specified but if does not exist will be ignored, e.g. /tmp/JUNK
+
+Longitude = Longitude of observation (for LST calculation)
+
+PathToDark = path to darkframe file to subtract for last exposure
+
+-Note: PathToDark needs to be specified but if does not exist will be ignored, e.g. /tmp/JUNK
 
 
 There are four components
